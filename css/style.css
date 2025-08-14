@@ -1,0 +1,17 @@
+a{
+    text-decoration-line: none;
+}
+
+.url-header-text {
+    color: aliceblue;
+    font-size: 1em;
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style: normal;
+}
+
+body{
+    background-color: black;
+    color: aliceblue;
+}
