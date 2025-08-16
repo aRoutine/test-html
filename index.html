@@ -6,10 +6,19 @@
     <title>My first guide</title>
     <link rel="stylesheet" href="./css/reset.css">
     <link rel="stylesheet" href="./css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Sansation:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100..900;1,100..900&family=Sansation:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&display=swap" rel="stylesheet">
 </head>
 <body>
     
-    <header>
+    <header class="container">
         
         <img id='menu-vector-001' src="./img/menu-vector-001.png" alt="menu-vector-001">
 
@@ -51,31 +60,60 @@
 
 
 <main>
-    <section>
-        <p class="section-1-text-head"><h2>IPhone 16 Pro - </h2>там, где реальность встречает звёзды.</p>
-        <p class="section-1-text-main">iPhone 16 Pro раскрывает горизонты, о которых вы даже не мечтали. 
-            Камера, словно телескоп, заглядывает в глубины Вселенной, а чип 
-            нового поколения работает с космической скоростью. 
-            Каждая деталь, каждый кадр и каждое движение — это магия, сотканная из технологий, 
-            чтобы вы смогли поймать своё будущее прямо в ладонях.</p>
-            <button id="button-button-buy" type="button">Купить</button>
-            <button id="button-button-more" type="button">Подробнее</button>
-        </section>
+    <section class="hero">
+    <div class="hero-text">
+        <h2><span>IPhone 16 Pro</span> — там, где реальность встречает звёзды.</h2>
+        <p>
+            iPhone 16 Pro раскрывает горизонты, о которых вы даже не мечтали. Камера, словно телескоп, 
+            заглядывает в глубины Вселенной, а чип нового поколения работает с космической скоростью. 
+            Каждая деталь, каждый кадр и каждое движение — это магия, сотканная из технологий.
+        </p>
+        <div class="buttons">
+            <button class="btn-buy">Купить</button>
+            <button class="btn-more">Подробнее</button>
+        </div>
+    </div>
+
+    <div class="hero-image">
+        <img src="./img/phones.png" alt="iPhone 16 Pro">
+    </div>
+</section>
     
-        <section>
+    
 
-            <h1>Выбери аксессуар</h1>
-            <img id='text-for-me-001' src="./img/text-for-me-001.png" alt="text-for-you">
-            <p id='section-2-text-airpods' class="section-2-text"><div>AirPods Pro 2</div>Активное шумоподавление стирает границы между вами и музыкой, а адаптивный звук подстраивается под ваш мир так же точно, как орбита под звёзды.</p>
-            <img id="airpods-close-001" src="./img/airpods-close-001.png" alt="airpods-close-001">
-            <p id='section-2-text-applewatch' class="section-2-text"><div>Apple Watch Series 10</div>Открывают перед вами Вселенную здоровья и времени, где каждый удар сердца превращается в сигнал к действию, а каждый жест оживает на ярком дисплее.</p>
-            <img id='apple-watch-001' src="./img/apple-watch-001.png" alt="apple-watch-001">
-            <p id='section-2-text-magsafe' class="section-2-text"><div>MagSafe</div>Превращает каждый день в магию магнитного притяжения, где зарядка и аксессуары соединяются с вашим iPhone так точно, словно орбиты планет.</p>
-            <img id='magsafe-001' src="./img/magsafe-001.png" alt="magsafe-001">
 
-        </section>
 
-        <section>
+
+<div class="text001"> <h1>Выбери аксессуар</h1> </div> <div class="text-for-me-001"> <img id='text-for-me' src="./img/text-for-me-001.png" alt="text-for-you"> </div>
+
+<div class="block-2">
+    <div class="accessory-block">
+        <img src="./img/airpods-close-001.png" alt="AirPods">
+        <div class="accessory-text">
+            <strong>AirPods Pro 2</strong>
+            <p>Активное шумоподавление стирает границы между вами и музыкой, а адаптивный звук подстраивается под ваш мир так же точно, как орбита под звёзды.</p>
+        </div>
+    </div>
+
+    <div class="accessory-block">
+        <img src="./img/apple-watch-001.png" alt="Apple Watch">
+        <div class="accessory-text">
+            <strong>Apple Watch Series 10</strong>
+            <p>Открывают перед вами Вселенную здоровья и времени, где каждый удар сердца превращается в сигнал к действию, а каждый жест оживает на ярком дисплее.</p>
+        </div>
+    </div>
+
+    <div class="accessory-block">
+        <img src="./img/magsafe-001.png" alt="MagSafe">
+        <div class="accessory-text">
+            <strong>MagSafe</strong>
+            <p>Превращает каждый день в магию магнитного притяжения, где зарядка и аксессуары соединяются с вашим iPhone так точно, словно орбиты планет.</p>
+        </div>
+    </div>
+</div>
+
+
+        <section class="section-main-3">
 
 
 
@@ -83,45 +121,49 @@
 </main>
 
 
-<footer>
+<footer class="footer-div">
+    <div>
+        <div class="apple-logo">
+            <img src="./img/apple-img-001.png" alt="apple-img-002">
+            <h3>apple store</h3>
+        </div>
 
-    <img src="./img/apple-img-001.png" alt="apple-img-002">
-    <h3>apple store</h3>
-
-    <table>
-        <thead>
-            <tr>
-            <th>Get started</th>
-            <th>About us</th>
-            <th>Support</th>
-            </tr>
-        </thead>    
-        <tbody>
-            <tr>
-                <td>Home</td>
-                <td>Sign up</td>
-                <td>Downloads app</td>
-            </tr>
-            <tr>
-                <td>Company information</td>
-                <td>Contact us</td>
-                <td>Reviews</td>
-            </tr>
-            <tr>
-                <td>FAQ</td>
-                <td>Help desk</td>
-                <td>Forums</td>
-            </tr>
-        </tbody>
-    </table>
-
-<button type="button">contract us</button>
-<img src="./img/twiter-logo-001.svg" alt="twiter-logo-001">
-<img src="./img/facebook-logo-001.png" alt="facebook-logo-001">
-<img src="./img/google-logo-001.png" alt="google-logo-001">
-
+        <table>
+            <thead>
+                <tr>
+                <th>Get started</th>
+                <th>About us</th>
+                <th>Support</th>
+                </tr>
+            </thead>    
+            <tbody>
+                <tr>
+                    <td>Home</td>
+                    <td>Sign up</td>
+                    <td>Downloads app</td>
+                </tr>
+                <tr>
+                    <td>Company information</td>
+                    <td>Contact us</td>
+                    <td>Reviews</td>
+                </tr>
+                <tr>
+                    <td>FAQ</td>
+                    <td>Help desk</td>
+                    <td>Forums</td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+    <div class="buttons2"> 
+        <div class="iconcs">
+        <img src="./img/twiter-logo-001.svg" alt="twiter-logo-001">
+        <img src="./img/facebook-logo-001.png" alt="facebook-logo-001">
+        <img src="./img/google-logo-001.png" alt="google-logo-001">
+        </div>
+        <button id="btn-contact" type="button">Contact us</button>
+    </div>
 </footer>
-
 
 </body>
 </html>

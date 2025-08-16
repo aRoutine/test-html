@@ -1,17 +1,389 @@
+.container {
+    max-width: 1860px; /* максимум при больших экранах */
+    width: 100%;       /* занимает всю доступную ширину */
+    margin: 0 auto;    /* центрируем */
+    padding: 0 30px;   /* боковые отступы */
+}
+
+
 a{
     text-decoration-line: none;
 }
 
-.url-header-text {
+.block-main-1 {
+    display: flex;
+    justify-content: space-between; /* текст слева, картинка справа */
+    align-items: center; /* вертикальное выравнивание */
+}
+
+.block-main-1 img {
+    max-width: 400px; /* ограничение ширины картинки */
+    height: auto;
+}
+.url-header-text a {
     color: aliceblue;
-    font-size: 1em;
     font-family: "Montserrat", sans-serif;
-    font-optical-sizing: auto;
-    font-weight: weight;
-    font-style: normal;
+  font-optical-sizing: auto;
+  font-weight: weight;
+  font-style: normal;
+  font-size: 24px;
 }
 
 body{
     background-color: black;
     color: aliceblue;
+    font-family: "Montserrat", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: weight;
+  font-style: normal;
+  max-width: 100%;
+  overflow-x: hidden; /* предотвращает прокрутку по X */
+}
+
+.section-2-text{
+    color: #2667B2;
+    font-family: "Montserrat", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: weight;
+  font-style: normal;
+}
+
+h2{
+    font-size: 24px;
+    color: #9481AF;
+    display: inline;
+}
+
+.section-1-text-head {
+    font-size: 24px;
+    display: inline;
+}
+
+.section-2-text{
+    font-size: 15px;
+}
+
+h1{
+    font-size: 48px;
+}
+
+strong{
+    font-size: 32px;
+    color: #3B307A;
+}
+
+h3{
+    font-size: 24px;
+}
+
+table{
+    font-size: 20px;
+}
+
+nav ul {
+    list-style: none; /* убираем точки */
+    display: flex; /* делаем элементы в одну линию */
+    gap: 40px; /* расстояние между словами */
+    padding: 0;
+    margin: 0;
+    align-items: center; /* выравниваем по вертикали */
+}
+
+nav li {
+    margin: 0;
+    padding: 0;
+}
+
+
+header {
+    display: flex;
+    align-items: center; /* выравнивание по вертикали */
+    gap: 40px; /* расстояние между картинкой и меню */
+    margin-bottom: 100px;
+    width: 100%;
+}
+
+
+
+#menu-vector-001{
+    margin-right: 125px;
+}
+
+.apple-img-001{
+    margin: 0px 45px 0px 45px;
+}
+
+.section-main-1{
+    margin-top: 150px;
+}
+
+#button-button-buy{
+    width: 125px;
+    height: 30px;
+    margin: 10px;
+    border-radius: 10px;
+}
+
+#button-button-more{
+    width: 125px;
+    height: 30px;
+    margin: 10px;
+    border-radius: 10px;
+}
+
+.hero {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 50px;
+    background-color: #0e0e0e; /* тёмный фон */
+    color: white;
+}
+
+.hero-text {
+    max-width: 50%;
+}
+
+.hero-text h2 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+}
+
+.hero-text h2 span {
+    color: #a68cff; /* цвет акцента */
+}
+
+.hero-text p {
+    font-size: 1rem;
+    margin-bottom: 30px;
+    line-height: 1.5;
+}
+
+.buttons {
+    display: flex;
+    gap: 15px;
+}
+
+.btn-buy {
+    padding: 10px 20px;
+    border-radius: 20px;
+    background: linear-gradient(90deg, #3a84ff, #8f3aff);
+    border: none;
+    color: white;
+    cursor: pointer;
+    width: 20%;
+}
+
+.btn-more {
+    padding: 10px 20px;
+    border-radius: 20px;
+    background: transparent;
+    border: 1px solid white;
+    color: white;
+    cursor: pointer;
+    width: 20%;
+}
+
+.hero-image img {
+    max-width: 500px;
+    height: auto;
+}
+
+.block-2{
+    display: flex;
+}
+
+
+.text001{
+    max-width: 1920px;
+    text-align: center;
+}
+
+.text-for-me-001 {
+    display: flex;
+    justify-content: center; /* центрируем горизонтально */
+}
+
+#text-for-me{
+    max-width: 100%;
+    height: auto;
+}
+
+.section-main-2{
+    margin: 10px;
+}
+
+.block-2{
+    margin: 25px;
+    display: flex;
+    gap: 30px;
+    align-items: center;    /* Центрируем по горизонтали */
+}
+
+#airpods-close-001{
+   width: 50%;
+   height: 50%;
+}
+
+.apple-watch-block{
+    display: flex;
+    align-items: center;
+    flex-direction: column
+}
+
+.magsafe-block{
+    display: flex;
+    align-items: center;
+    flex-direction: column
+}
+
+.section-2-magsafe{
+     background-color: #FFFFFF;
+    padding: 10px;
+    border-radius: 30px;
+    text-align: center;
+}
+
+.magsafe-block img{
+    width: 50%;
+    height: 50%;
+}
+
+#apple-watch-001{
+    width: 20%;
+    height: 54%;
+}
+
+
+.section-2-airpods{
+    background-color: #FFFFFF;
+    padding: 10px;
+    border-radius: 30px;
+    text-align: center;
+}
+
+.section-2-apple-watch{
+    background-color: #FFFFFF;
+    padding: 10px;
+    border-radius: 30px;
+    text-align: center;
+    align-items: center;
+}
+
+.AirPods-block{
+    display: flex;
+    max-width: 30%;
+    flex-direction: column; /* Ставим элементы в колонку */
+    align-items: center;    /* Центрируем по горизонтали */
+    gap: 15px;              /* Расстояние между иконками и кнопкой */
+}
+
+.section-main-2{
+    margin-top: 30px;
+    margin-bottom: 100px;
+}
+
+.footer-div{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 33px;
+    background-color: #2C2C2C; /* тёмный фон */
+    color: white;
+    
+}
+
+.apple-logo img{
+    padding-left: 30px;
+}
+.apple-logo{
+    float: left;
+    padding: 30px;
+    
+}
+
+table{
+    justify-content: center; /* центрируем горизонтально */
+    
+    width: 1000px;
+    padding: 30;
+}
+
+th{
+    padding-top: 25px;
+    padding-bottom: 20px;
+}
+
+td{
+    text-align: center;
+    padding-bottom: 15px;
+    height: 100%;
+}
+
+
+.iconcs{
+    width: 100%;
+    display: inline;
+}
+.buttons2 {
+    padding-right: 30px;
+    display: flex;
+    flex-direction: column; /* Ставим элементы в колонку */
+    align-items: center;    /* Центрируем по горизонтали */
+    gap: 15px;              /* Расстояние между иконками и кнопкой */
+}
+
+.iconcs {
+    display: flex; /* чтобы иконки шли в ряд */
+    gap: 25px;     /* расстояние между иконками */
+}
+
+#btn-contact{
+    height: 25px;
+    width: 125px;
+    border-radius: 20px;
+    color: #FFFFFF;
+    background: linear-gradient(110deg, #303030, #FFFFFF);
+}
+
+
+.block-2 {
+    display: flex;
+    justify-content: center;   /* центрируем по горизонтали */
+    gap: 50px;                 /* расстояние между блоками */
+    margin-top: 40px;
+    margin-bottom: 50px;
+}
+
+.text001{
+    margin-top: 50px;
+}
+
+.accessory-block {
+    flex: 1;                   /* равные размеры */
+    max-width: 300px;          /* ограничение ширины */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.accessory-block img {
+    width: 180px;              /* одинаковый размер картинок */
+    height: 180px;
+    object-fit: contain;       /* картинка вписывается */
+    margin-bottom: 20px;
+}
+
+.accessory-text {
+    background-color: #fff;
+    border-radius: 30px;
+    padding: 20px;
+    color: #2667B2;
+}
+.accessory-text strong {
+    display: block;
+    margin-bottom: 10px;
+    font-size: 22px;
+    color: #3B307A;
 }
