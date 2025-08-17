@@ -387,3 +387,22 @@ td{
     font-size: 22px;
     color: #3B307A;
 }
+
+
+a{
+    color: inherit;
+}
+
+li:hover{
+    scale: 110%;
+}
+
+.hrefa:hover{
+    color: #8f3aff;
+    scale: 110%;
+    cursor: pointer;
+}
+
+button:hover{
+scale: 110%;
+}
